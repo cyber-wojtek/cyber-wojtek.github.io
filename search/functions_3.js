@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['empty_0',['empty',['../class_c_dynamic_bit_set.html#a2d99deaf4960b05571198ee72fb6ec38',1,'CDynamicBitSet::empty()'],['../class_c_bit_set.html#a6d3c858fc11430b9a7b94dad051d075a',1,'CBitSet::empty()']]]
+  ['empty_0',['empty',['../class_c_dynamic_bit_set.html#a56fa53f5f90266166ddf69fb6b0ec0ac',1,'CDynamicBitSet::empty()'],['../class_c_bit_set.html#ab959d94cf533ab38ba49b676f759e6d0',1,'CBitSet::empty()']]]
 ];
