@@ -23,7 +23,6 @@ var classwoj_1_1bitset =
     [ "bitset", "classwoj_1_1bitset.html#a46d96b13e43e30cb51e9ddc23cbae105", null ],
     [ "~bitset", "classwoj_1_1bitset.html#a93127115e8fe48c3279359860558e6c1", null ],
     [ "all", "classwoj_1_1bitset.html#a215fa0fb37f77aa4c0368fc03e89541f", null ],
-    [ "all_reset", "classwoj_1_1bitset.html#a7b8c4966de99bb71f0c6df9516a6cf69", null ],
     [ "any", "classwoj_1_1bitset.html#a888291b092a260cae59d6e53d3204c4d", null ],
     [ "as_const", "classwoj_1_1bitset.html#abe793f89bf373a0c99824df343a78b05", null ],
     [ "begin", "classwoj_1_1bitset.html#a0e9ee74c53a3f43f306f72f1d9fad5d1", null ],
