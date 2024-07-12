@@ -19,6 +19,7 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -287,8 +288,8 @@ requires (std::convertible_to&lt;OtherBlockType, BlockType&gt; &amp;&amp; !std::
 <tr class="separator:a6bf2567982525ae7c4d72420d77dce72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a918daaca9acde0ce649a0215ae18a331" id="r_a918daaca9acde0ce649a0215ae18a331"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a918daaca9acde0ce649a0215ae18a331">reset</a> () noexcept</td></tr>
 <tr class="separator:a918daaca9acde0ce649a0215ae18a331"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b4110876f712a55ee2e3d4c5bdadf71" id="r_a6b4110876f712a55ee2e3d4c5bdadf71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b4110876f712a55ee2e3d4c5bdadf71">fill</a> (const <a class="el" href="#a95b45e024904cf35400ae7fc8e82a9bb">size_type</a> &amp;<a class="el" href="#a1a271cebde91fcd5a2a0e8454c05dbbe">end</a>, const bool value) noexcept</td></tr>
-<tr class="separator:a6b4110876f712a55ee2e3d4c5bdadf71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a132e8ba6ab418e45bd11ba87efeb6308" id="r_a132e8ba6ab418e45bd11ba87efeb6308"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a132e8ba6ab418e45bd11ba87efeb6308">fill_range</a> (const <a class="el" href="#a95b45e024904cf35400ae7fc8e82a9bb">size_type</a> &amp;<a class="el" href="#a1a271cebde91fcd5a2a0e8454c05dbbe">end</a>, const bool value) noexcept</td></tr>
+<tr class="separator:a132e8ba6ab418e45bd11ba87efeb6308"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fc0b03897a937456306c64132b4d19c" id="r_a6fc0b03897a937456306c64132b4d19c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fc0b03897a937456306c64132b4d19c">set_range</a> (const <a class="el" href="#a95b45e024904cf35400ae7fc8e82a9bb">size_type</a> &amp;<a class="el" href="#a1a271cebde91fcd5a2a0e8454c05dbbe">end</a>) noexcept</td></tr>
 <tr class="separator:a6fc0b03897a937456306c64132b4d19c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb2ab0fe0caa4011b1ccd5bfb9cef209" id="r_acb2ab0fe0caa4011b1ccd5bfb9cef209"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb2ab0fe0caa4011b1ccd5bfb9cef209">reset_range</a> (const <a class="el" href="#a95b45e024904cf35400ae7fc8e82a9bb">size_type</a> &amp;<a class="el" href="#a1a271cebde91fcd5a2a0e8454c05dbbe">end</a>) noexcept</td></tr>
@@ -1602,7 +1603,7 @@ template&lt;unsigned_integer BlockType&gt; </div>
 </div>
 </div>
 <a id="ab431fa3fd073173e74fcc83b005fcaf2" name="ab431fa3fd073173e74fcc83b005fcaf2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab431fa3fd073173e74fcc83b005fcaf2">&#9670;&#160;</a></span>fill() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab431fa3fd073173e74fcc83b005fcaf2">&#9670;&#160;</a></span>fill()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1628,44 +1629,6 @@ template&lt;unsigned_integer BlockType&gt; </div>
 <p>Fills all the bits with the specified value </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">value</td><td>Value to fill the bits with (bit value) </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a6b4110876f712a55ee2e3d4c5bdadf71" name="a6b4110876f712a55ee2e3d4c5bdadf71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b4110876f712a55ee2e3d4c5bdadf71">&#9670;&#160;</a></span>fill() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;unsigned_integer BlockType&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classwoj_1_1dynamic__bitset.html">woj::dynamic_bitset</a>&lt; BlockType &gt;::fill </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a95b45e024904cf35400ae7fc8e82a9bb">size_type</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>end</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Fills all the bits in the specified range with the specified value </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">value</td><td>Value to fill the bits with (bit value) </td></tr>
-    <tr><td class="paramname">end</td><td>End of the range to fill (bit index) </td></tr>
   </table>
   </dd>
 </dl>
@@ -1838,7 +1801,7 @@ template&lt;unsigned_integer BlockType&gt; </div>
 </div>
 </div>
 <a id="a0ff9a936dbb22c96bb50e401e899bb2a" name="a0ff9a936dbb22c96bb50e401e899bb2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ff9a936dbb22c96bb50e401e899bb2a">&#9670;&#160;</a></span>fill_range() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ff9a936dbb22c96bb50e401e899bb2a">&#9670;&#160;</a></span>fill_range() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1882,7 +1845,7 @@ template&lt;unsigned_integer BlockType&gt; </div>
 </div>
 </div>
 <a id="a558f27b727f6c657cbab9ab176aafc52" name="a558f27b727f6c657cbab9ab176aafc52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a558f27b727f6c657cbab9ab176aafc52">&#9670;&#160;</a></span>fill_range() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a558f27b727f6c657cbab9ab176aafc52">&#9670;&#160;</a></span>fill_range() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1925,6 +1888,44 @@ template&lt;unsigned_integer BlockType&gt; </div>
     <tr><td class="paramname">begin</td><td>Begin of the range to fill (bit index) </td></tr>
     <tr><td class="paramname">end</td><td>End of the range to fill (bit index) </td></tr>
     <tr><td class="paramname">step</td><td>Step size between the bits to fill (bit step) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a132e8ba6ab418e45bd11ba87efeb6308" name="a132e8ba6ab418e45bd11ba87efeb6308"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a132e8ba6ab418e45bd11ba87efeb6308">&#9670;&#160;</a></span>fill_range() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;unsigned_integer BlockType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classwoj_1_1dynamic__bitset.html">woj::dynamic_bitset</a>&lt; BlockType &gt;::fill_range </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a95b45e024904cf35400ae7fc8e82a9bb">size_type</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>end</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Fills all the bits in the specified range with the specified value </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>Value to fill the bits with (bit value) </td></tr>
+    <tr><td class="paramname">end</td><td>End of the range to fill (bit index) </td></tr>
   </table>
   </dd>
 </dl>
