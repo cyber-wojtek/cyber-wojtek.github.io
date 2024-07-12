@@ -128,8 +128,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9e03088e0cf7442193cd17d7f0c418c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88f5230cb3994e4531c8e1f2beb1ac13" id="r_a88f5230cb3994e4531c8e1f2beb1ac13"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88f5230cb3994e4531c8e1f2beb1ac13">set</a> (const bool value=true) const noexcept</td></tr>
 <tr class="separator:a88f5230cb3994e4531c8e1f2beb1ac13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb2fc81abdebe752e1207776ce12a5c1" id="r_abb2fc81abdebe752e1207776ce12a5c1"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb2fc81abdebe752e1207776ce12a5c1">clear</a> () const noexcept</td></tr>
-<tr class="separator:abb2fc81abdebe752e1207776ce12a5c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4d460ab332c65b4a5c11a7460706795" id="r_ac4d460ab332c65b4a5c11a7460706795"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4d460ab332c65b4a5c11a7460706795">reset</a> () const noexcept</td></tr>
+<tr class="separator:ac4d460ab332c65b4a5c11a7460706795"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -262,34 +262,6 @@ template&lt;unsigned_integer BlockType, std::size_t Size&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="abb2fc81abdebe752e1207776ce12a5c1" name="abb2fc81abdebe752e1207776ce12a5c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb2fc81abdebe752e1207776ce12a5c1">&#9670;&#160;</a></span>clear()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;unsigned_integer BlockType, std::size_t Size&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr void <a class="el" href="classwoj_1_1bitset.html">woj::bitset</a>&lt; BlockType, Size &gt;::reference::clear </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Reset the bit at the current index to value </p>
-
-</div>
-</div>
 <a id="a9e03088e0cf7442193cd17d7f0c418c6" name="a9e03088e0cf7442193cd17d7f0c418c6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9e03088e0cf7442193cd17d7f0c418c6">&#9670;&#160;</a></span>flip()</h2>
 
@@ -508,6 +480,34 @@ template&lt;unsigned_integer BlockType, std::size_t Size&gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="ac4d460ab332c65b4a5c11a7460706795" name="ac4d460ab332c65b4a5c11a7460706795"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4d460ab332c65b4a5c11a7460706795">&#9670;&#160;</a></span>reset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;unsigned_integer BlockType, std::size_t Size&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr void <a class="el" href="classwoj_1_1bitset.html">woj::bitset</a>&lt; BlockType, Size &gt;::reference::reset </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Reset the bit at the current index to value </p>
 
 </div>
 </div>
